@@ -7,5 +7,8 @@ claimant:
   contact: admin@ecosystem.example
 claim:
   status: adoptme
-  why: "Maintainer unresponsive last 3 months; Tried email, mastodon and linkedin."
-  date: 2026-11-16
+  reason: |
+    Maintainer unresponsive last 3 months.
+    Attempted contact via email, mastodon and linkedin.
+  since: 2026-11-16
+...

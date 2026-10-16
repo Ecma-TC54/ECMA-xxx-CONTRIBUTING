@@ -7,4 +7,6 @@ claimant:
   contact: admin@ecosystem.example
 claim:
   status: unreachable
-  date: 2026-11-16
+  reason: Email domain does not resolve any more. Domain expired?
+  since: 2026-11-16 10:00:00 UTC
+...

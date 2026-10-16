@@ -7,4 +7,8 @@ claimant:
   contact: foobar2-maint@project.example
 claim:
   status: adoptme
-  date: 2026-11-16
+  reason: |
+    Lost interest in the project. Happy to hand it off to
+    someone who is familiar with the code.
+  since: 2026-11-16
+...

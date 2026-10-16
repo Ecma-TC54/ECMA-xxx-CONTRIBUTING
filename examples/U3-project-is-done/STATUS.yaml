@@ -5,4 +5,7 @@ project:
 claimant:
   role: maintainer
   contact: foobar3-maint@project.example
-status: done
+claim:
+  status: done
+  since: 2026-11-16
+...
