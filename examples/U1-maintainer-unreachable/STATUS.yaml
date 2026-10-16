@@ -1,0 +1,10 @@
+---
+project:
+  name: foobar
+  contact: foobar-maint@somedomain.example
+claimant:
+  role: ecosystem-host
+  contact: admin@ecosystem.example
+claim:
+  status: unreachable
+  date: 2026-11-16

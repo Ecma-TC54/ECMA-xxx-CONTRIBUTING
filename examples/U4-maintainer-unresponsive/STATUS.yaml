@@ -1,0 +1,11 @@
+---
+project:
+  name: foobar2
+  contact: foobar2-maint@project.example
+claimant:
+  role: ecosystem-host
+  contact: admin@ecosystem.example
+claim:
+  status: adoptme
+  why: "Maintainer unresponsive last 3 months; Tried email, mastodon and linkedin."
+  date: 2026-11-16
