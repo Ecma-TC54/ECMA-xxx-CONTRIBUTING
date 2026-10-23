@@ -1,11 +1,22 @@
 ---
+spec-version: 1
+file-serial: 2
 project:
-  name: foobar3
-  contact: foobar3-maint@project.example
+  name: foobarU03
+  contact: foobar-maint@project.example
 claimant:
-  role: maintainer
-  contact: foobar3-maint@project.example
-claim:
-  status: done
-  since: 2026-11-16
+  - role: primary-maintainer
+    valid-since: 2021-01-12 10:00:00 UTC
+    contact: foobar3-maint@project.example
+    claims-about: [status]
+  - role: co-maintainer
+    valid-since: 2021-01-12 10:00:00 UTC
+    contact: foobar4-comaint@project.example
+    claims-about: []
+status:
+  - claim: done
+    since: 2026-11-16
+    reason: The algorithm is completely implemented
+    latest-published: https://github.com/example/projectU03/main/STATUS.yaml
+    valid-since: 2026-11-16 10:00:00 UTC
 ...
