@@ -17,6 +17,6 @@ status:
   - claim: done
     since: 2026-11-16
     reason: The algorithm is completely implemented
-    latest-published: https://github.com/example/projectU03/main/STATUS.yaml
+    current-status: https://github.com/example/projectU03/main/STATUS.yaml
     valid-since: 2026-11-16 10:00:00 UTC
 ...
