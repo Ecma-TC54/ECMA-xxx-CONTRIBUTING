@@ -3,12 +3,13 @@ project:
   name: foobar
   contact: foobar-maint@somedomain.example
 claimant:
-  role: ecosystem-host
-  about: status
-  contact: admin@ecosystem.example
+  - role: ecosystem-host
+    valid-since: 2021-01-12 10:00:00 UTC
+    claims-about: status
+    contact: admin@ecosystem.example
 status:
   claim: unreachable
   reason: Email domain does not resolve any more. Domain expired?
-  latest-published: https://github.com/example/project/main/STATUS.yaml
+  current-status: https://github.com/example/projectU01/main/STATUS.yaml
   valid-since: 2026-11-16 10:00:00 UTC
 ...
