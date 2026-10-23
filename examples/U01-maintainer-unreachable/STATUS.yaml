@@ -4,9 +4,11 @@ project:
   contact: foobar-maint@somedomain.example
 claimant:
   role: ecosystem-host
+  about: status
   contact: admin@ecosystem.example
-claim:
-  status: unreachable
+status:
+  claim: unreachable
   reason: Email domain does not resolve any more. Domain expired?
-  since: 2026-11-16 10:00:00 UTC
+  latest-published: https://github.com/example/project/main/STATUS.yaml
+  valid-since: 2026-11-16 10:00:00 UTC
 ...
